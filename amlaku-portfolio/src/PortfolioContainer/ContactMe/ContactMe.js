@@ -73,11 +73,11 @@ export default function ContactMe(props) {
         <div className="col">
           <h2 className="title">
             <Typical loop={Infinity} steps={["Get In Touch 📧", 1000]} />
-          </h2>{" "}
+          </h2>
           <a href="https://web.facebook.com/?_rdc=1&_rdr">
             <i className="fa fa-facebook-square" />
           </a>
-          <a href="#">
+          <a href="https://www.google.com">
             <i className="fa fa-google-plus-square" />
           </a>
           <a href="https://www.instagram.com/instructor_ehizeex/">
@@ -93,7 +93,7 @@ export default function ContactMe(props) {
         <div className="back-form">
           <div className="img-back">
             <h4>Send Your Email Here!</h4>
-            <img src={imgBack} alt="image not found" />
+            <img src={imgBack} alt="Email background" />
           </div>
           <form onSubmit={submitForm}>
             <p>{banner}</p>
@@ -112,10 +112,10 @@ export default function ContactMe(props) {
                 <i className="fa fa-paper-plane" />
                 {bool ? (
                   <b className="load">
-                    <img src={load1} alt="image not responding" />
+                    <img src={load1} alt="Loading animation" />
                   </b>
                 ) : (
-                 ""
+                  ""
                 )}
               </button>
             </div>

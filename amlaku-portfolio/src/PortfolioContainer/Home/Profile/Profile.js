@@ -13,7 +13,7 @@ const Profile = () => {
               <a href="https://www.facebook.com/amlaku.yalew.3">
                 <i className="fa fa-facebook-square" />
               </a>
-              <a href="#">
+              <a href="/#">
                 <i className="fa fa-google-plus-square" />
               </a>
               <a href="https://www.instagram.com/amlayalew/">
